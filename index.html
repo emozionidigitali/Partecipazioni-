@@ -1,177 +1,156 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Invito Matrimonio Luxury - Collezione Prestige</title>
-<!-- Importazione Google Fonts di lusso -->
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-​<style>
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-​body {
-font-family: 'Cormorant Garamond', serif;
-background: linear-gradient(135deg, #fcf8f5 0%, #f3ece4 50%, #e8decf 100%);
-color: #2c2421;
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 30px 15px;
-}
-​.invitation-card {
-background: #ffffff;
-max-width: 680px;
-width: 100%;
-padding: 60px 50px;
-border-radius: 4px;
-box-shadow: 0 20px 50px rgba(44, 36, 33, 0.12);
-text-align: center;
-border: 1px solid #d4c5b9;
-position: relative;
-}
-​/* Cornice interna decorativa stile carta di lusso */
-.invitation-card::before {
-content: "";
-position: absolute;
-top: 15px;
-left: 15px;
-right: 15px;
-bottom: 15px;
-border: 1px solid #e2d4c8;
-pointer-events: none;
-}
-​.ornament {
-font-size: 24px;
-color: #b39369;
-letter-spacing: 8px;
-margin-bottom: 20px;
-}
-​.top-subtitle {
-font-family: 'Cinzel', serif;
-font-size: 13px;
-letter-spacing: 3px;
-color: #8c7865;
-text-transform: uppercase;
-margin-bottom: 15px;
-}
-​h1 {
-font-family: 'Great Vibes', cursive;
-font-size: 64px;
-color: #5c4331;
-margin-bottom: 15px;
-line-height: 1.1;
-}
-​.subtitle {
-font-size: 20px;
-font-style: italic;
-color: #7a6555;
-margin-bottom: 40px;
-font-weight: 400;
-}
-​.details-grid {
-display: grid;
-grid-template-columns: 1fr;
-gap: 25px;
-text-align: left;
-margin: 30px 0;
-padding: 0 20px;
-}
-​.detail-item {
-border-bottom: 1px solid #f0e6de;
-padding-bottom: 20px;
-}
-​.detail-item:last-child {
-border-bottom: none;
-}
-​.detail-title {
-font-family: 'Cinzel', serif;
-font-size: 15px;
-color: #8c7865;
-letter-spacing: 1.5px;
-margin-bottom: 8px;
-text-transform: uppercase;
-}
-​.detail-text {
-font-size: 18px;
-color: #3b302a;
-line-height: 1.5;
-}
-​.rsvp-box {
-background: #faf6f0;
-border: 1px solid #e6d9ce;
-padding: 25px;
-margin-top: 30px;
-border-radius: 2px;
-}
-​.rsvp-box h3 {
-font-family: 'Cinzel', serif;
-font-size: 16px;
-color: #5c4331;
-margin-bottom: 10px;
-letter-spacing: 1px;
-}
-​.cta-button {
-display: inline-block;
-background: #5c4331;
-color: #ffffff;
-padding: 16px 45px;
-font-family: 'Cinzel', serif;
-font-size: 13px;
-letter-spacing: 2px;
-text-decoration: none;
-border-radius: 0;
-margin-top: 35px;
-text-transform: uppercase;
-transition: all 0.4s ease;
-box-shadow: 0 5px 15px rgba(92, 67, 49, 0.2);
-}
-​.cta-button:hover {
-background: #7a5a44;
-transform: translateY(-2px);
-box-shadow: 0 8px 25px rgba(92, 67, 49, 0.3);
-}
-​.footer-brand {
-margin-top: 40px;
-font-family: 'Cinzel', serif;
-font-size: 11px;
-letter-spacing: 2px;
-color: #a39182;
-text-transform: uppercase;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleonora & Alessandro - Partecipazione di Nozze</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #fdfbf7 0%, #f4ebd0 100%);
+            color: #2c2c2c;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .invitation-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            padding: 50px 40px;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(197, 160, 89, 0.15);
+            text-align: center;
+            border: 1px solid #e6d5b8;
+            position: relative;
+        }
+        .invitation-card::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 1px solid #d4af37;
+            pointer-events: none;
+            border-radius: 8px;
+        }
+        .tag-top {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #8c7355;
+            margin-bottom: 15px;
+        }
+        .symbols {
+            color: #d4af37;
+            font-size: 18px;
+            margin-bottom: 20px;
+            letter-spacing: 5px;
+        }
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 44px;
+            font-weight: 600;
+            color: #1a1a1a;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+        .quote {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-size: 18px;
+            color: #665c54;
+            margin-bottom: 35px;
+            line-height: 1.4;
+            padding: 0 20px;
+        }
+        .section {
+            margin: 25px 0;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0e6d6;
+        }
+        .section:last-of-type {
+            border-bottom: none;
+        }
+        .section h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 22px;
+            color: #8c7355;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        .section p {
+            font-size: 15px;
+            color: #444444;
+            line-height: 1.6;
+        }
+        .cta-btn {
+            display: inline-block;
+            margin-top: 30px;
+            background: #1a1a1a;
+            color: #ffffff;
+            padding: 14px 35px;
+            text-decoration: none;
+            font-size: 13px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-radius: 30px;
+            transition: background 0.3s ease;
+        }
+        .cta-btn:hover {
+            background: #d4af37;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #a3917d;
+        }
+    </style>
 </head>
 <body>
-​<div class="invitation-card">
-<div class="top-subtitle">Partecipazione di Nozze</div>
-<div class="ornament">❖ ❖ ❖</div>
-​<h1>Eleonora & Alessandro</h1>
-<div class="subtitle">"Con immenso amore, vi invitano a celebrare il giorno più importante della loro vita"</div>
-​<div class="details-grid">
-<div class="detail-item">
-<div class="detail-title">📅 La Cerimonia</div>
-<div class="detail-text">Domenica 20 Settembre 2027 • Ore 17:00
-Villa Pignatelli, Napoli</div>
-</div>
-​<div class="detail-item">
-<div class="detail-title">✨ Ricevimento & Dress Code</div>
-<div class="detail-text">Seguirà il banchetto nuziale.
-<strong>Dress Code:</strong> Black Tie / Elegante</div>
-</div>
-</div>
-​<div class="rsvp-box">
-<h3>💌 RSVP & Informazioni</h3>
-<p class="detail-text" style="font-size: 16px; margin-top: 5px;">
-Si prega cortesemente di confermare la presenza entro il <strong>10 Agosto 2027</strong>.
 
-Per dettagli sul soggiorno e lista nozze: <em>www.eleonoraealessandro.it</em>
-</p>
-</div>
-​<a href="#" class="cta-button">Personalizza Template</a>
-​<div class="footer-brand">Collezione Prestige • Esclusiva Etsy</div>
-</div>
-​</body>
+    <div class="invitation-card">
+        <div class="tag-top">Partecipazione di Nozze</div>
+        <div class="symbols">❖ ❖ ❖</div>
+        
+        <h1>Eleonora & Alessandro</h1>
+        
+        <div class="quote">
+            "Con immenso amore, vi invitano a celebrare il giorno più importante della loro vita"
+        </div>
+
+        <div class="section">
+            <h2>La Cerimonia</h2>
+            <p><strong>Domenica 20 Settembre 2027 • Ore 17:00</strong><br>Villa Pignatelli, Napoli</p>
+        </div>
+
+        <div class="section">
+            <h2>Ricevimento & Dress Code</h2>
+            <p>Seguirà il banchetto nuziale.<br><strong>Dress Code:</strong> Black Tie / Elegante</p>
+        </div>
+
+        <div class="section">
+            <h2>RSVP & Informazioni</h2>
+            <p>Si prega cortesemente di confermare la presenza entro il <strong>10 Agosto 2027</strong>.<br>Per dettagli sul soggiorno e lista nozze: <em>www.eleonoraealessandro.it</em></p>
+        </div>
+
+        <a href="#" class="cta-btn">Personalizza Template</a>
+        
+        <div class="footer">
+            Collezione Prestige • Esclusiva Etsy
+        </div>
+    </div>
+
+</body>
 </html>
